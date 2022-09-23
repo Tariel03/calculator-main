@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="face" blendMode="DARKEN" cache="true" prefHeight="569.0" prefWidth="537.0" style="-fx-background-color: Gainsboro;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.Calc">
+   <children>
+      <Button fx:id="one" layoutX="50.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="1">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="two" layoutX="170.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="2">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="three" layoutX="290.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="3">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="four" layoutX="50.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="4">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="five" layoutX="170.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="six" layoutX="290.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="6">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="seven" layoutX="50.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="7">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="nine" layoutX="290.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="zero" layoutX="170.0" layoutY="410.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="eight" layoutX="170.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="8">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="plus" layoutX="410.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="+">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" layoutX="410.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="-">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiply" layoutX="410.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="*">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="divide" layoutX="290.0" layoutY="410.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text=":">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteAll" layoutX="50.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="C">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" layoutX="170.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="x">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="equal" layoutX="290.0" layoutY="145.0" maxHeight="75.0" maxWidth="100.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="=">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="-1.0" prefHeight="103.0" prefWidth="537.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="result" layoutX="20.0" layoutY="65.0" prefHeight="32.0" prefWidth="507.0" style="-fx-font-family: cursive;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="logth" layoutX="50.0" layoutY="410.0" maxHeight="40.0" maxWidth="100.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="log" />
+      <Button fx:id="parents" layoutX="410.0" layoutY="410.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="()" />
+      <Button fx:id="point" layoutX="410.0" layoutY="145.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="." />
+      <Button fx:id="pi" layoutX="50.0" layoutY="480.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="п" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="387.0" AnchorPane.topAnchor="480.0" />
+      <Button fx:id="numberOfEuler" layoutX="410.0" layoutY="480.0" mnemonicParsing="false" onAction="#initiliaze" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="e" />
+      <Button fx:id="pow" layoutX="170.0" layoutY="480.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="^" />
+      <Button fx:id="sqrt" layoutX="290.0" layoutY="480.0" mnemonicParsing="false" onMouseClicked="#initiliaze" prefHeight="40.0" prefWidth="100.0" text="sqrt" />
+   </children>
+</AnchorPane>
